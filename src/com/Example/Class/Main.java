@@ -22,6 +22,7 @@ public class Main {
         dog.loves();
         dog.eat();
         dog.happy();
+        dog.isAfraid();
         System.out.println(dog.getName() +" is "+ dog.getColor()  );
 
 
