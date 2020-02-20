@@ -12,6 +12,9 @@ public class Main {
      Food food = new Food("Bobite", 12, 30);
         System.out.println(food.getName());
 
+        DogFood dogFood = new DogFood();
+
+
         Dog dog = new Dog();
         dog.setAge(45);
         dog.setColor("white");
@@ -23,6 +26,8 @@ public class Main {
         dog.eat();
         dog.happy();
         dog.isAfraid();
+//        dog.set
+//        dog.eat("Orice");
         System.out.println(dog.getName() +" is "+ dog.getColor()  );
 
 
