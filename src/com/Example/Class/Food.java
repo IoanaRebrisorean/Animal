@@ -5,9 +5,9 @@ public class Food {
     private int price;
     private int quantity;
 
-    Food(){}
+    public Food() {}
 
-     Food(String name, int price, int quantity) {
+    public Food(String name, int price, int quantity) {
          this.name = name;
          this.price = price;
          this.quantity=quantity;

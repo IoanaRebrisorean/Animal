@@ -9,15 +9,16 @@ public class Animal {
     private int hunger;
     private int mood;
 
-    Animal(){}
+    Animal() {
+    }
 
-    Animal(String name, int age, String color, int health, int hunger, int mood){
-        this.name=name;
-        this.age=age;
-        this.color=color;
-        this.health=health;
-        this.hunger=hunger;
-        this.mood=mood;
+    Animal(String name, int age, String color, int health, int hunger, int mood) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
+        this.health = health;
+        this.hunger = hunger;
+        this.mood = mood;
     }
 
     public int getMood() {
@@ -68,15 +69,15 @@ public class Animal {
         this.hunger = hunger;
     }
 
-    public void eat(){
+    public void eat() {
         System.out.println(getName() + " eat...");
     }
 
-    public void loves(){
-        System.out.println(getName() + " love");
+    public void loves(Person person) {
+        System.out.println(getName() + " loves" + person.getName());
     }
 
-    public void isAfraid(){
+    public void isAfraid() {
         System.out.println(getName() + " is afraid");
     }
 }
