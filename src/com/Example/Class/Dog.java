@@ -20,5 +20,12 @@ public class Dog extends Animal {
     }
 
 
-
+    public void eat(DogFood dogFood) {
+        if( dogFood.getFoodType().equals("Bobite")){
+            System.out.println("Mananca bobite");
+        }
+        else{
+            System.out.println("Mananca orice");
+        }
+    }
 }
